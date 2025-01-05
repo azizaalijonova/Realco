@@ -1,8 +1,5 @@
 .how {
   margin-top: 13rem;
-}
-
-.how .container {
   display: flex;
   gap: 6.4rem;
   flex-direction: column;
@@ -19,6 +16,34 @@
   p {
     font-size: 1.8rem;
     line-height: 2.7rem;
+    text-align: center;
+  }
+}
+
+.how-items {
+  display: flex;
+  gap: 3.2rem;
+}
+
+.how-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 3rem;
+  border: 1px solid var(--grey);
+  border-radius: 1.6rem;
+  box-shadow: 0 2px 4px #00000014;
+
+  img {
+    width: 4.8rem;
+    height: 4.8rem;
+  }
+
+  p {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
     text-align: center;
   }
 }
