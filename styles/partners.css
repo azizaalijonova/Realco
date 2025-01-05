@@ -1,0 +1,21 @@
+.partners {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 7rem;
+
+  p {
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    color: var(--main-color);
+  }
+}
+
+.partner-logos {
+  display: flex;
+  gap: 3rem;
+
+  img {
+    width: 12rem;
+    height: 2.8rem;
+  }
+}
