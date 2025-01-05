@@ -1,0 +1,82 @@
+.advert {
+  background-color: var(--brown);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 4rem;
+  padding-right: 4rem;
+
+  span {
+    flex-grow: 1;
+    text-align: center;
+    color: var(--white);
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
+.exit {
+  cursor: pointer;
+}
+.navbar {
+  background-color: var(--white);
+  position: sticky;
+  top: 0;
+  padding-top: 1.6rem;
+  padding-bottom: 1.6rem;
+}
+.navbar .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-left {
+  cursor: pointer;
+}
+.nav-right {
+  display: flex;
+
+  ul {
+    display: flex;
+    gap: 1.6rem;
+    align-items: center;
+    margin-right: 8px;
+
+    a {
+      display: inline-block;
+      color: var(--main-color);
+      font-weight: 400;
+      font-size: 1.6rem;
+      line-height: 2.4rem;
+      display: flex;
+      gap: 4px;
+
+      select {
+        outline: none;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.cart {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  padding: 9px 21px;
+  border: 1px solid var(--grey);
+  border-radius: 1rem;
+  box-shadow: 1px 1px 1px var(--grey);
+  margin-right: 1.6rem;
+  color: var(--main-color);
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
