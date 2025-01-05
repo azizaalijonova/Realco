@@ -59,6 +59,13 @@ h3 {
   line-height: 3.4rem;
   color: var(--main-color);
 }
+
+h4 {
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 5.8rem;
+  color: var(--main-color);
+}
 p {
   color: var(--text-color);
   font-weight: 400;
@@ -76,4 +83,11 @@ p {
   color: var(--white);
   border-radius: 1rem;
   cursor: pointer;
+}
+
+.btn2 {
+  background-color: var(--white);
+  color: var(--main-color);
+  border: 1px solid var(--grey);
+  box-shadow: 0 2px 4px #00000014;
 }
