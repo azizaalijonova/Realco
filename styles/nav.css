@@ -75,8 +75,10 @@
   border-radius: 1rem;
   box-shadow: 1px 1px 1px var(--grey);
   margin-right: 1.6rem;
-  color: var(--main-color);
-  font-weight: 400;
-  font-size: 1.6rem;
-  line-height: 2.4rem;
+  p {
+    color: var(--main-color);
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
 }

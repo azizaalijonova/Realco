@@ -1,0 +1,24 @@
+.how {
+  margin-top: 13rem;
+}
+
+.how .container {
+  display: flex;
+  gap: 6.4rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.1rem;
+
+  p {
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    text-align: center;
+  }
+}
